@@ -10,6 +10,10 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <title>Weather App</title>
   </head>
   <body class="bg-dark text-white">
@@ -20,13 +24,22 @@
         </div>
         <div class="col-lg-6"></div>
         <div class="col-lg-4">
-          <input
-            class="form-control"
-            type="text"
-            name="search"
-            id="searchBar"
-            placeholder="Enter the city you want to search here"
-          />
+          <div class="row">
+            <div class="col-10">
+              <input
+                class="form-control"
+                type="text"
+                name="search"
+                id="searchBar"
+                placeholder="Enter the city you want to search here"
+              />
+            </div>
+            <div class="col-2">
+              <button id="searchBtn" class="btn btn-outline-light">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 

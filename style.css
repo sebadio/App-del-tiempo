@@ -1,0 +1,14 @@
+.weatherBackground {
+  z-index: -10;
+}
+
+i::before {
+  transform: inherit;
+}
+
+.conenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+}
