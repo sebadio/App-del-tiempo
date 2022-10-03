@@ -1,9 +1,27 @@
+::-webkit-scrollbar {
+  background: none;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
 .weatherBackground {
   z-index: -10;
 }
 
 i::before {
+  margin-bottom: 0.15rem;
   transform: inherit;
+}
+
+.alert {
+  position: fixed;
+  top: 1rem;
+  width: 50%;
+  margin: 0 25%;
 }
 
 .conenedor {
@@ -11,4 +29,8 @@ i::before {
   flex-direction: column;
   gap: 1rem;
   overflow: auto;
+}
+
+.sup {
+  font-family: monospace;
 }
