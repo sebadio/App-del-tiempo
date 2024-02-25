@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import WeatherInfo from "@components/WeatherInfo.svelte";
 import Input from "@components/Input.svelte";
 import GoBackButton from "@components/GoBackButton.svelte";
+import Footer from "@components/Footer.astro";
 ---
 
 <Layout title="Weather App">
@@ -14,4 +15,5 @@ import GoBackButton from "@components/GoBackButton.svelte";
     <br />
     <WeatherInfo client:only />
   </main>
+  <Footer />
 </Layout>

@@ -1,14 +1,18 @@
 ---
 import Input from "@components/Input.svelte";
 import Layout from "../layouts/Layout.astro";
+import Footer from "@components/Footer.astro";
 ---
 
 <Layout title="Weather App">
-  <main
-    class="m-auto p-4 w-11/12 flex flex-col justify-center items-center sm:w-2/4 max-w-[100% - 2rem] text-xl"
-  >
-    <h1 class="text-2xl font-semibold text-pretty my-4">Weather App</h1>
+  <div class="flex flex-col h-screen">
+    <main
+      class="m-auto flex-1 grow p-4 w-11/12 flex flex-col justify-center items-center sm:w-2/4 max-w-[100% - 2rem] justify-center text-xl"
+    >
+      <h1 class="text-2xl font-semibold text-pretty my-4">Weather App</h1>
 
-    <Input client:only />
-  </main>
+      <Input client:only />
+    </main>
+    <Footer />
+  </div>
 </Layout>
