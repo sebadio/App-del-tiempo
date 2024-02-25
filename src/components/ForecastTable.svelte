@@ -7,12 +7,12 @@
     <Table.Caption>Forecast for the next days</Table.Caption>
     <Table.Header>
         <Table.Row>
-            <Table.Head>Day</Table.Head>
-            <Table.Head>Weather</Table.Head>
-            <Table.Head>Temperature</Table.Head>
-            <Table.Head>Feels like</Table.Head>
-            <Table.Head>Pressure</Table.Head>
-            <Table.Head>Humidity</Table.Head>
+            <Table.Head class="text-center">Day</Table.Head>
+            <Table.Head class="text-center">Weather</Table.Head>
+            <Table.Head class="text-center">Temperature</Table.Head>
+            <Table.Head class="text-center">Feels like</Table.Head>
+            <Table.Head class="text-center">Pressure</Table.Head>
+            <Table.Head class="text-center">Humidity</Table.Head>
         </Table.Row>
     </Table.Header>
 
@@ -32,8 +32,8 @@
                 </Table.Cell>
                 <Table.Cell class="text-center">{day.main.temp}°C</Table.Cell>
                 <Table.Cell>{day.main.feels_like}°C</Table.Cell>
-                <Table.Cell>{day.main.pressure}</Table.Cell>
-                <Table.Cell>{day.main.humidity}</Table.Cell>
+                <Table.Cell>{day.main.pressure}hPa</Table.Cell>
+                <Table.Cell>{day.main.humidity}%</Table.Cell>
             </Table.Row>
         {/each}
     </Table.Body>

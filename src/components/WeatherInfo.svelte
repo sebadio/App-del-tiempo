@@ -60,7 +60,7 @@
 
 <section class="font-mono font-bold w-100%">
     {#if loading}
-        <Skeleton class="h-12 w-72 max-w-[100% - 2rem]" />
+        <Skeleton class="h-10 w-72 max-w-[100% - 2rem]" />
         <header class="flex items-center space-x-2 mt-2">
             <Skeleton class="size-10 rounded-full max-w-[100% - 2rem]" />
             <Skeleton class="h-6 w-44 max-w-[100% - 2rem]" />

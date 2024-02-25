@@ -34,8 +34,8 @@
                 <Table.Cell class="text-center">
                     <Skeleton class="w-12 m-auto h-4" />
                 </Table.Cell>
-                <Table.Cell><Skeleton class="w-10 m-auto h-4" /></Table.Cell>
-                <Table.Cell><Skeleton class="w-10 m-auto h-4" /></Table.Cell>
+                <Table.Cell><Skeleton class="w-12 m-auto h-4" /></Table.Cell>
+                <Table.Cell><Skeleton class="w-14 m-auto h-4" /></Table.Cell>
                 <Table.Cell><Skeleton class="w-10 m-auto h-4" /></Table.Cell>
             </Table.Row>
         {/each}
