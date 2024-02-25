@@ -10,8 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.4.2",
     "@astrojs/check": "^0.5.5",
+    "@astrojs/svelte": "^5.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.4.2",
+    "bits-ui": "^0.18.2",
+    "clsx": "^2.1.0",
+    "lucide-svelte": "^0.338.0",
+    "svelte": "^4.2.12",
+    "tailwind-merge": "^2.2.1",
+    "tailwind-variants": "^0.2.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   }
 }
